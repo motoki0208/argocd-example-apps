@@ -1,10 +1,7 @@
-$patch: replace
 apiVersion: v1	
 kind: Service	
 metadata:	
   name: guestbook-ui	
-  annotations:
-    argocd.argoproj.io/sync-options: Validate=false
 spec:	
   ports:
   - port: 81	
