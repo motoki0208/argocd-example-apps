@@ -4,6 +4,8 @@ metadata:
   name: guestbook-ui	
 spec:	
   ports:	
+  - port: 88
+    $patch: delete
   - port: 81	
     targetPort: 80	
   selector:	
