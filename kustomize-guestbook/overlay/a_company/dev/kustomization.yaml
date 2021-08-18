@@ -4,4 +4,4 @@ kind: Kustomization
 bases:
 - ../../../../base
 patches:
-- 03_cronjob.yaml
+- ../guestbook-ui-svc.yaml
