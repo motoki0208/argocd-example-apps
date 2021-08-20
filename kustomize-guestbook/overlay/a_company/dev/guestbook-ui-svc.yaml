@@ -6,7 +6,7 @@ spec:
   ports:	
   - port: 80
     $patch: delete
-  - port: 89
+  - port: 90
     targetPort: 80	
   selector:	
     app: guestbook-ui
